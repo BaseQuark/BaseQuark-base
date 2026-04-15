@@ -7,3 +7,4 @@
 ## 1.0.7: 2024-01-22 各种Utils
 ## 1.0.8: 2024-01-25 ActionSheetItemView
 ## 1.0.9: 2024-02-08 ActionSheetItemView listener fix
+## 1.0.10: 2026-04-16 升级material、appcompat、multidex

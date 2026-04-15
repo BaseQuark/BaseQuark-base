@@ -1,0 +1,243 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.base.quark",
+    "module": "BaseQuark-base",
+    "version": "1.0.10",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "3.12.13"
+          }
+        },
+        {
+          "group": "com.github.getActivity",
+          "module": "EasyHttp",
+          "version": {
+            "requires": "11.6"
+          }
+        },
+        {
+          "group": "com.github.lzyzsd",
+          "module": "jsbridge",
+          "version": {
+            "requires": "1.0.4"
+          }
+        },
+        {
+          "group": "com.android.volley",
+          "module": "volley",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "BaseQuark-base-1.0.10.aar",
+          "url": "BaseQuark-base-1.0.10.aar",
+          "size": 972266,
+          "sha512": "7b80398908dadeb2f7411f0dfd59e65c9d04a1ec125be67b0a16504dea7c10b53fefa5229746f84796384e69147d058bbda610e6f28a5dfde44b994066c95b4e",
+          "sha256": "472e4eaf80e367b925039a89319a3eb3532724e7b49d8f70f21143845eb9030c",
+          "sha1": "63006b445945dd46b13b4a910b7b1ca2569c6160",
+          "md5": "bee4c0ab68d1b3a4dbc534179483f85a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxjava",
+          "version": {
+            "requires": "2.2.3"
+          }
+        },
+        {
+          "group": "io.reactivex.rxjava2",
+          "module": "rxandroid",
+          "version": {
+            "requires": "2.1.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.greenrobot",
+          "module": "eventbus",
+          "version": {
+            "requires": "3.2.0"
+          }
+        },
+        {
+          "group": "com.jakewharton",
+          "module": "butterknife",
+          "version": {
+            "requires": "10.0.0"
+          }
+        },
+        {
+          "group": "androidx.multidex",
+          "module": "multidex",
+          "version": {
+            "requires": "2.0.1"
+          }
+        },
+        {
+          "group": "com.trello.rxlifecycle3",
+          "module": "rxlifecycle",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "com.trello.rxlifecycle3",
+          "module": "rxlifecycle-android",
+          "version": {
+            "requires": "3.0.0"
+          }
+        },
+        {
+          "group": "com.orhanobut",
+          "module": "logger",
+          "version": {
+            "requires": "2.1.1"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.13.1"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "com.alibaba",
+          "module": "fastjson",
+          "version": {
+            "requires": "1.2.48"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-core",
+          "version": {
+            "requires": "2.12.3"
+          }
+        },
+        {
+          "group": "com.google.android.exoplayer",
+          "module": "exoplayer-ui",
+          "version": {
+            "requires": "2.12.3"
+          }
+        },
+        {
+          "group": "com.squareup.okhttp3",
+          "module": "okhttp",
+          "version": {
+            "requires": "3.12.13"
+          }
+        },
+        {
+          "group": "com.github.getActivity",
+          "module": "EasyHttp",
+          "version": {
+            "requires": "11.6"
+          }
+        },
+        {
+          "group": "com.github.lzyzsd",
+          "module": "jsbridge",
+          "version": {
+            "requires": "1.0.4"
+          }
+        },
+        {
+          "group": "com.android.volley",
+          "module": "volley",
+          "version": {
+            "requires": "1.2.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "BaseQuark-base-1.0.10.aar",
+          "url": "BaseQuark-base-1.0.10.aar",
+          "size": 972266,
+          "sha512": "7b80398908dadeb2f7411f0dfd59e65c9d04a1ec125be67b0a16504dea7c10b53fefa5229746f84796384e69147d058bbda610e6f28a5dfde44b994066c95b4e",
+          "sha256": "472e4eaf80e367b925039a89319a3eb3532724e7b49d8f70f21143845eb9030c",
+          "sha1": "63006b445945dd46b13b4a910b7b1ca2569c6160",
+          "md5": "bee4c0ab68d1b3a4dbc534179483f85a"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseSourcePublication",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "BaseQuark-base-1.0.10-sources.jar",
+          "url": "BaseQuark-base-1.0.10-sources.jar",
+          "size": 336428,
+          "sha512": "ee7623da712b433114cd6e958638326964464ee0fd2dc1e58900676c1675eb8efb23d1f7c40dcad6bc98a0effc3cc4421d2bff4ba9bdcba64be81182bdd50289",
+          "sha256": "3c43afbe5fc245a0bfa6f9987c1e8614ff286b60b6bdf4ec28851cef1ac5f046",
+          "sha1": "07c6e1f4ee0ad76202f3a1aab410e09e79fec277",
+          "md5": "90cb789b6ef968979216898d22ccd7c7"
+        }
+      ]
+    }
+  ]
+}
